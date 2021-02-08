@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Icon, Label } from 'semantic-ui-react';
 import Main from './components/Main';
 import Particles from 'react-particles-js';
 import Footer from './components/Footer';
@@ -22,7 +21,7 @@ const App = () => {
               type: 'circle',
               stroke: {
                 width: 6,
-                color: '#dc143c'
+                color: '#7fffd4'
               }
             }
           }

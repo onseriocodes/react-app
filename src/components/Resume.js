@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Divider, Grid, Header, Image } from 'semantic-ui-react';
+// import { Container, Divider, Grid, Header, Image } from 'semantic-ui-react';
 import { FaCode, FaDesktop, FaGraduationCap } from 'react-icons/fa';
 
 import {
