@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------- PARTICLES JS ------------ */
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 40%;
+  width: 100vw;
+  z-index: 1 !important;
+  /* border-bottom: thick solid red; */
+}
