@@ -186,13 +186,8 @@ class MobileContainer extends Component {
                   <Menu.Item onClick={this.handleToggle}>
                     <Icon name='sidebar' />
                   </Menu.Item>
-                  <Menu.Item position='right'>
-                    <Button as='a' inverted>
-                      Log in
-                    </Button>
-                    <Button as='a' inverted style={{ marginLeft: '0.5em' }}>
-                      Sign Up
-                    </Button>
+                  <Menu.Item className='header' as='h2' textAlign='center'>
+                    <Header.Content as='h2'>Onserio Codes</Header.Content>
                   </Menu.Item>
                 </Menu>
               </Container>
@@ -236,7 +231,7 @@ const Main = () => (
               About Me
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              Over 10 years providing client support, inbound/outbound & help
+              Over 10 years providing inbound/outbound client support & help
               desk experience. I have a Computer Information Technology
               Networking Associate from El Centro College, courses entailing
               managing, maintaining & troubleshooting CISCO routers, switches &
