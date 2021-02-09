@@ -231,21 +231,23 @@ const Main = () => (
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Grid container stackable verticalAlign='middle'>
         <Grid.Row>
-          <Grid.Column width={8}>
+          <Grid.Column width={10}>
             <Header textAlign='center' as='h3' style={{ fontSize: '2em' }}>
               About Me
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              I have over 10 years experience in providing client support,
-              inbound, outbound & help desk. I have a Computer Information
-              Technology Networking Associate from El Centro College, my courses
-              entailing managing, maintaining & troubleshooting CISCO routers,
-              switches & PC's. Currently on my web development journey with the
-              MERN stack.
+              Over 10 years providing client support, inbound/outbound & help
+              desk experience. I have a Computer Information Technology
+              Networking Associate from El Centro College, courses entailing
+              managing, maintaining & troubleshooting CISCO routers, switches &
+              PC's. Currently on my web development journey with the MERN stack
+              in order to provide the same quality service to prospective
+              clients looking provide a smooth web experience to their
+              customers.
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image id='pic' />
+            <Image id='pic' centered />
           </Grid.Column>
         </Grid.Row>
         <Divider
