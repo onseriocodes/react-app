@@ -2,6 +2,7 @@ import { createMedia } from '@artsy/fresnel';
 import PropTypes from 'prop-types';
 import React, { Component, useState } from 'react';
 import Typed from 'react-typed';
+import pic from '../img/pic.JPG';
 
 import {
   Button,
@@ -105,7 +106,7 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a' active>
+                {/* <Menu.Item as='a' active>
                   Home
                 </Menu.Item>
                 <Menu.Item as='a'>Work</Menu.Item>
@@ -123,6 +124,9 @@ class DesktopContainer extends Component {
                   >
                     Sign Up
                   </Button>
+                </Menu.Item> */}
+                <Menu.Item className='header' as='h2' textAlign='center'>
+                  <Header.Content as='h2'>Onserio Codes</Header.Content>
                 </Menu.Item>
               </Container>
             </Menu>
@@ -232,18 +236,16 @@ const Main = () => (
               About Me
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              We can give your company superpowers to do things that they never
-              thought possible. Let us delight your customers and empower your
-              needs... through pure data analytics.
+              I have over 10 years experience in providing quality client
+              support, inbound, outbound & help desk. I have a Computer
+              Information Technology Networking Associate from El Centro
+              College, my courses entailing managing, maintaining &
+              troubleshooting CISCO routers, switches & PC's. Currently on my
+              web development journey with the MERN stack.
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image
-              bordered
-              rounded
-              size='large'
-              src='/images/wireframe/white-image.png'
-            />
+            <Image bordered rounded size='large' src={pic} />
           </Grid.Column>
         </Grid.Row>
         <Divider

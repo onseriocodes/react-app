@@ -177,7 +177,7 @@ const Resume = () => {
           icon={<FaDesktop />}
         >
           <h3 className='vertical-timeline-element-title text'>
-            Customer Service Rep
+            Tech Support I
           </h3>
           <h4 className='vertical-timeline-element-subtitle text'>
             Virgin Mobile - Carrollton, TX
