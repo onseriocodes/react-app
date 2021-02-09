@@ -33,7 +33,7 @@ const { MediaContextProvider, Media } = createMedia({
  * components for such things.
  */
 const HomepageHeading = ({ mobile }) => (
-  <Container text>
+  <Container>
     <Header
       as='h1'
       content="Hi, I'm Tony Momanyi"
@@ -93,6 +93,7 @@ class DesktopContainer extends Component {
           onBottomPassedReverse={this.hideFixedMenu}
         >
           <Segment
+            className='heading'
             inverted
             textAlign='center'
             style={{ minHeight: '80vh', padding: '1em 0em' }}
@@ -104,27 +105,9 @@ class DesktopContainer extends Component {
               pointing={!fixed}
               secondary={!fixed}
               size='large'
+              className='menu'
             >
               <Container>
-                {/* <Menu.Item as='a' active>
-                  Home
-                </Menu.Item>
-                <Menu.Item as='a'>Work</Menu.Item>
-                <Menu.Item as='a'>Company</Menu.Item>
-                <Menu.Item as='a'>Careers</Menu.Item>
-                <Menu.Item position='right'>
-                  <Button as='a' inverted={!fixed}>
-                    Log in
-                  </Button>
-                  <Button
-                    as='a'
-                    inverted={!fixed}
-                    primary={fixed}
-                    style={{ marginLeft: '0.5em' }}
-                  >
-                    Sign Up
-                  </Button>
-                </Menu.Item> */}
                 <Menu.Item className='header' as='h2' textAlign='center'>
                   <Header.Content as='h2'>Onserio Codes</Header.Content>
                 </Menu.Item>
@@ -182,7 +165,7 @@ class MobileContainer extends Component {
               vertical
             >
               <Container>
-                <Menu inverted pointing secondary size='large'>
+                <Menu className='menu' inverted pointing secondary size='large'>
                   <Menu.Item onClick={this.handleToggle}>
                     <Icon name='sidebar' />
                   </Menu.Item>

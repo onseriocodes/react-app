@@ -27,3 +27,14 @@ body {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
+
+.menu {
+  z-index: 2 !important;
+  border-bottom: 2px solid springgreen;
+}
+
+.heading {
+  background: url('./img/pattern.jpg') !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
