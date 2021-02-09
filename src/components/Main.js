@@ -93,11 +93,11 @@ class DesktopContainer extends Component {
           onBottomPassedReverse={this.hideFixedMenu}
         >
           <Segment
-            className='heading'
             inverted
             textAlign='center'
             style={{ minHeight: '80vh', padding: '1em 0em' }}
             vertical
+            className='heading'
           >
             <Menu
               fixed={fixed ? 'top' : null}
@@ -108,7 +108,7 @@ class DesktopContainer extends Component {
               className='menu'
             >
               <Container>
-                <Menu.Item className='header' as='h2' textAlign='center'>
+                <Menu.Item as='h2' textAlign='center'>
                   <Header.Content as='h2'>Onserio Codes</Header.Content>
                 </Menu.Item>
               </Container>
@@ -220,7 +220,7 @@ const Main = () => (
               managing, maintaining & troubleshooting CISCO routers, switches &
               PC's. Currently on my web development journey with the MERN stack
               in order to provide the same quality service to prospective
-              clients looking provide a smooth web experience to their
+              clients looking to provide a smooth web experience for their
               customers.
             </p>
           </Grid.Column>

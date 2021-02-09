@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Grid, Header, List, Segment } from 'semantic-ui-react';
+import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -8,29 +9,23 @@ const Footer = () => {
         <Container>
           <Grid divided inverted stackable>
             <Grid.Row>
-              <Grid.Column width={3}>
+              <Grid.Column width={6}>
                 <Header inverted as='h4' content='Contact Me' />
                 <List link inverted>
-                  <List.Item as='a'>onseriocodes@gmail.com</List.Item>
+                  <List.Item as='a'>
+                    <AiOutlineMail /> onseriocodes@gmail.com
+                  </List.Item>
+                  <List.Item as='a'>
+                    <AiOutlinePhone /> 214-422-9562
+                  </List.Item>
                 </List>
               </Grid.Column>
-              <Grid.Column width={3}>
-                <Header inverted as='h4' content='Services' />
-                <List link inverted>
-                  <List.Item as='a'>Front-End</List.Item>
-                  <List.Item as='a'>Static Site</List.Item>
-                  <List.Item as='a'>Dynamic Site</List.Item>
-                  <List.Item as='a'>Responsive Site</List.Item>
-                </List>
-              </Grid.Column>
+
               <Grid.Column width={7}>
                 <Header as='h4' inverted>
                   Onserio Codes
                 </Header>
-                <p>
-                  Extra space for a call to action inside the footer that could
-                  help re-engage users.
-                </p>
+                <p> &copy; Copyright 2021 </p>
               </Grid.Column>
             </Grid.Row>
           </Grid>

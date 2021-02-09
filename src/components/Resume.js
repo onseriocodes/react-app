@@ -18,7 +18,7 @@ const Resume = () => {
           contentArrowStyle={{
             borderRight: '7px solid  red)'
           }}
-          date={<p className='date'>2019 - Present</p>}
+          date={<p className='date'>2020 - Present</p>}
           iconStyle={{ background: '#333', color: '#36ffab' }}
           icon={<FaCode />}
         >
@@ -28,10 +28,11 @@ const Resume = () => {
           <h4 className='vertical-timeline-element-subtitle text'>
             The Colony, TX
           </h4>
-
-          <p>
-            Developing front and back end web applications for small businesses.
-          </p>
+          <ul>
+            <li> Learning Front & Back-End Web Development</li>
+            <li>Practicing with REACT for front-end development</li>
+            <li>Practicing with Express.js for back-end development </li>
+          </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
