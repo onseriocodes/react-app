@@ -236,16 +236,16 @@ const Main = () => (
               About Me
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              I have over 10 years experience in providing quality client
-              support, inbound, outbound & help desk. I have a Computer
-              Information Technology Networking Associate from El Centro
-              College, my courses entailing managing, maintaining &
-              troubleshooting CISCO routers, switches & PC's. Currently on my
-              web development journey with the MERN stack.
+              I have over 10 years experience in providing client support,
+              inbound, outbound & help desk. I have a Computer Information
+              Technology Networking Associate from El Centro College, my courses
+              entailing managing, maintaining & troubleshooting CISCO routers,
+              switches & PC's. Currently on my web development journey with the
+              MERN stack.
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src={pic} />
+            <Image bordered rounded size='medium' src={pic} />
           </Grid.Column>
         </Grid.Row>
         <Divider
