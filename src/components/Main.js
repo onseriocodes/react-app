@@ -245,7 +245,7 @@ const Main = () => (
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='medium' src={pic} />
+            <Image id='pic' />
           </Grid.Column>
         </Grid.Row>
         <Divider

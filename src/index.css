@@ -15,3 +15,15 @@ body {
   z-index: 1 !important;
   /* border-bottom: thick solid red; */
 }
+
+#pic {
+  width: 200px;
+  height: 200px;
+  background-image: url('./img/pic.JPG');
+  background-position: center;
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
