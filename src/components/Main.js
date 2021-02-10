@@ -36,7 +36,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container>
     <Header
       as='h1'
-      content="Hi, I'm Tony Momanyi"
+      content={<p className='title'>Hi, I'm Tony Momanyi</p>}
       inverted
       style={{
         fontSize: mobile ? '2em' : '4em',
@@ -48,6 +48,7 @@ const HomepageHeading = ({ mobile }) => (
     <Header
       as='h2'
       inverted
+      className='title'
       style={{
         fontSize: mobile ? '2em' : '4em',
         fontWeight: 'normal',
@@ -109,7 +110,9 @@ class DesktopContainer extends Component {
             >
               <Container>
                 <Menu.Item as='h2' textAlign='center'>
-                  <Header.Content as='h2'>Onserio Codes</Header.Content>
+                  <Header.Content className='title' as='h2'>
+                    OnseriO Codes
+                  </Header.Content>
                 </Menu.Item>
               </Container>
             </Menu>
