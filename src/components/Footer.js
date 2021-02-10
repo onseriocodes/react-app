@@ -25,7 +25,7 @@ const Footer = () => {
                 <Header as='h4' inverted>
                   Onserio Codes
                 </Header>
-                <p> &copy; Copyright 2021 </p>
+                <p> Copyright &copy; 2021, All rights reserved</p>
               </Grid.Column>
             </Grid.Row>
           </Grid>

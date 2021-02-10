@@ -38,3 +38,13 @@ body {
   background-position: center !important;
   background-size: cover !important;
 }
+
+.resume {
+  background: url('./img/file.jpg') !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.date {
+  color: rgb(39, 39, 39);
+}

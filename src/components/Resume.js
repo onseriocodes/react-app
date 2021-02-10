@@ -10,7 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Resume = () => {
   return (
-    <>
+    <div>
       <VerticalTimeline className='timeline'>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
@@ -194,7 +194,7 @@ const Resume = () => {
           </ul>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </>
+    </div>
   );
 };
 
