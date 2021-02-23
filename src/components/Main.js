@@ -213,7 +213,12 @@ const Main = () => (
       <Grid container stackable verticalAlign='middle'>
         <Grid.Row>
           <Grid.Column width={10}>
-            <Header textAlign='center' as='h3' style={{ fontSize: '2em' }}>
+            <Header
+              className='title'
+              textAlign='center'
+              as='h3'
+              style={{ fontSize: '2em' }}
+            >
               About Me
             </Header>
             <p style={{ fontSize: '1.33em' }}>
@@ -232,8 +237,6 @@ const Main = () => (
           </Grid.Column>
         </Grid.Row>
         <Divider
-          as='h2'
-          className='header'
           horizontal
           style={{ margin: '3em 0em', textTransform: 'uppercase' }}
         >
